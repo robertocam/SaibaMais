@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+}
+#container{
+  margin: 0 auto;
+  width: 80%;
+  border: red 1px solid;
+}
+header img{
+  width: 100%;
+}
+main img{
+ width: 49%;
+ margin: 0 0.4%
+}

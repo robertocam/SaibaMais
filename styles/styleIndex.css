@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+}
+body{
+  background-color: #efefefff;
+}
+#container{
+  margin: 0 auto;
+  width: 80%;
+}
+header {
+  background-color: #5c407aff;
+  background-color: #f97167ff;
+  background-color: #f36b81ff;
+  background-color: #ec3235ff;
+  background-color: #ea3339ff;
+  background-color: #ea3236ff;
+  background-color: #445765ff;
+  background-color: #30dae7ff;
+  background-color: #01afedff;
+  background-color: #0a1389ff;
+  background-color: #6f90c7ff;
+  background-color: #5051dbff;
+  background-color: #a5f6e9ff;
+  background-color: #26ddbfff;
+  background-color: #27c5aeff;
+  background-color: #199b83ff;
+  background-color: #dfdfdfff;
+}
+header img{
+ width: 104%;
+ margin-top: -5%;
+ margin-bottom: -2%;
+}
+#fundo{
+  width: 80%; 
+  position: absolute;
+  z-index: 1;
+  margin-left: -2%;
+}/*
+#interrogacao{
+  width: 13%;  
+  position: relative;
+  z-index: 2;
+  margin: 20% 43%;
+  -webkit-animation: loading 2s linear infinite;
+  -moz-animation: loading 2s linear infinite;
+  -o-animation: loading 2s linear infinite;
+  -ms-animation: loading 2s linear infinite;
+  animation: loading 2s linear infinite;
+}
+@keyframes loading {
+  0% {
+    transform: rotate3d(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@-ms-keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}*/
+#interrogacao{
+  width: 13%;  
+  position: relative;
+  z-index: 2;
+  margin: 20% 43%;
+  -webkit-animation: loading 2s infinite alternate;
+  -moz-animation: loading 2s infinite alternate;
+  -o-animation: loading 2s infinite alternate;
+  -ms-animation: loading 2s infinite alternate;
+  animation: loading 2s infinite alternate;
+}
+@keyframes loading {
+  0% {
+    margin-top: 24%;
+  }
+  100%{
+    margin-top: 15%;
+  }
+}
+@-webkit-keyframes loading {
+  0% {
+    margin-top: 24%;
+  }
+  100%{
+    margin-top: 15%;
+  }
+}
+@-moz-keyframes loading {
+  0% {
+    margin-top: 24%;
+  }
+  100%{
+    margin-top: 15%;
+  }
+}
+@-o-keyframes loading {
+  0% {
+    margin-top: 24%;
+  }
+  100%{
+    margin-top: 15%;
+  }
+}
+@-ms-keyframes loading {
+  0% {
+    margin-top: 24%;
+  }
+  100%{
+    margin-top: 15%;
+  }
+}
