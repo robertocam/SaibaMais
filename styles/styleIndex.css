@@ -90,7 +90,7 @@ header img{
     transform: rotate(360deg);
   }
 }*/
-a img #interrogacao{
+#interrogacao{
   width: 13%;
   height: auto;  
   position: relative;
