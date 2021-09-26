@@ -94,6 +94,7 @@ header img{
   position: relative;
   z-index: 2;
   margin: 20% 43%;
+}/*
   -webkit-animation: loading 2s infinite alternate;
   -moz-animation: loading 2s infinite alternate;
   -o-animation: loading 2s infinite alternate;
@@ -139,4 +140,4 @@ header img{
   100%{
     margin-top: 15%;
   }
-}
+}*/
