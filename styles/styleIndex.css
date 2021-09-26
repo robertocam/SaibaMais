@@ -35,7 +35,7 @@ header img{
 #fundo{
   width: 80%; 
   position: absolute;
-  z-index: 5000;
+  z-index: 1;
   margin-left: -2%;
 }
 /*
@@ -94,10 +94,8 @@ header img{
   width: 13%;
   height: auto;  
   position: relative;
-  z-index: 10000;
+  z-index: 2;
   margin: 20% 43%; 
-}
-/*
   -webkit-animation: loading 2s infinite alternate;
   -moz-animation: loading 2s infinite alternate;
   -o-animation: loading 2s infinite alternate;
@@ -143,4 +141,4 @@ header img{
   100%{
     margin-top: 15%;
   }
-}*/
+}
