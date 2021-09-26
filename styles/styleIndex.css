@@ -35,9 +35,10 @@ header img{
 #fundo{
   width: 80%; 
   position: absolute;
-  z-index: 1;
+  z-index: 5000;
   margin-left: -2%;
-}/*
+}
+/*
 #interrogacao{
   width: 13%;  
   position: relative;
@@ -89,13 +90,14 @@ header img{
     transform: rotate(360deg);
   }
 }*/
-a #interrogacao{
-  width: 13%;  
+a img #interrogacao{
+  width: 13%;
+  height: auto;  
   position: relative;
-  z-index: 6000;
-  margin: 20% 43%;
-  size: 100%;
-}/*
+  z-index: 10000;
+  margin: 20% 43%; 
+}
+/*
   -webkit-animation: loading 2s infinite alternate;
   -moz-animation: loading 2s infinite alternate;
   -o-animation: loading 2s infinite alternate;
