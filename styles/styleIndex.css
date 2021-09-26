@@ -89,11 +89,12 @@ header img{
     transform: rotate(360deg);
   }
 }*/
-#interrogacao{
+a #interrogacao{
   width: 13%;  
   position: relative;
-  z-index: 2;
+  z-index: 6000;
   margin: 20% 43%;
+  size: 100%;
 }/*
   -webkit-animation: loading 2s infinite alternate;
   -moz-animation: loading 2s infinite alternate;
