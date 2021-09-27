@@ -27,8 +27,15 @@ header {
   background-color: #199b83ff;
   background-color: #dfdfdfff;
 }
-header img{
+#saibaMais{
  width: 104%;
  margin-top: -5%;
- margin-bottom: -2%;
+ margin-bottom: -5%;
+}
+#logo{
+ width: 100%;
+}
+main img{
+  width: 100%;
+  border: 5px #445765ff solid;
 }
