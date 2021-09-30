@@ -39,3 +39,29 @@ main img{
   width: 100%;
   border: 5px #445765ff solid;
 }
+table{
+  width: 100%;
+}
+th, td{
+  padding: 7px;
+}
+th{
+  background-color: #a5f6e9ff;
+  text-transform: uppercase;
+  border-top: 1px solid #445765ff;
+  border-bottom: 1px solid #111;
+  text-align: left;
+  font-size: 90%;
+  letter-spacing: 0.1em;
+}
+.periodo{
+  background-color: #efefefff;
+  text-transform: uppercase;
+  border-top: 1px solid #445765ff;
+  border-bottom: none;
+  text-align: center;
+  font-size: 120%;
+}
+tr:hover{
+  background-color: #26ddbfff
+}
