@@ -55,13 +55,22 @@ th{
   letter-spacing: 0.1em;
 }
 .periodo{
-  background-color: #efefefff;
+  background-color: #26ddbfff;
   text-transform: uppercase;
   border-top: 1px solid #445765ff;
   border-bottom: none;
   text-align: center;
   font-size: 120%;
 }
+.borderLeft{
+  border-left: 1px solid #445765ff;
+}
+.borderRight{
+  border-right: 1px solid #445765ff;
+}
+.borderBottom{
+  border-bottom: 1px solid #445765ff; 
+}
 tr:hover{
-  background-color: #26ddbfff
+  background-color: rgb(220, 250, 245)
 }
