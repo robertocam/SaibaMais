@@ -4,10 +4,11 @@
 body{
   background-color: #efefefff;
 }
-#container{
+main{
   margin: 0 auto;
   width: 80%;
-}
+  background-color: #dfdfdfff;
+}/*
 header {
   background-color: #5c407aff;
   background-color: #f97167ff;
@@ -26,16 +27,26 @@ header {
   background-color: #27c5aeff;
   background-color: #199b83ff;
   background-color: #dfdfdfff;
+}*/
+#superior{
+  background-color: rgb(129, 129, 129);
+  text-align: center;
+}
+#inferior{
+  background-color: rgb(177, 174, 174);
+  text-align: center;
 }
 #saibaMais{
- width: 104%;
+ width: 85%;
  margin-top: -5%;
  margin-bottom: -5%;
+ margin-left: 4%;
 }
 #logo{
- width: 100%;
+ width: 85%;
+ margin-top: 2%;
 }
 main img{
-  width: 100%;
+  width: 50%;
   border: 5px #445765ff solid;
 }
