@@ -7,7 +7,7 @@ body{
 main{
   width: 80%;
   margin: 0 auto;
-  background-color: rgb(220, 250, 245);
+  background-color: #dfdfdfff;
 }
 /*
 header {
@@ -30,13 +30,22 @@ header {
   background-color: #dfdfdfff;
 }*/
 #superior{
+  background-color: rgb(150, 150, 150);
+  text-align: center;
+}
+#inferior{
+  background-color: rgb(180, 180, 180);
+  text-align: center;
+}
+/*
+#superior{
   background-color: #26ddbfff;
   text-align: center;
 }
 #inferior{
   background-color: #a5f6e9ff;
   text-align: center;
-}
+}*/
 #saibaMais{
  width: 85%;
  margin-top: -5%;
@@ -59,7 +68,7 @@ th, td{
   padding: 7px;
 }
 th{
-  background-color: #a5f6e9ff;
+  background-color: #f97167ff;
   text-transform: uppercase;
   border-top: 1px solid #445765ff;
   border-bottom: 1px solid #111;
@@ -68,7 +77,7 @@ th{
   letter-spacing: 0.1em;
 }
 .periodo{
-  background-color: #26ddbfff;
+  background-color: #ea3236ff;
   text-transform: uppercase;
   border-top: 1px solid #445765ff;
   border-bottom: none;
@@ -85,5 +94,5 @@ th{
   border-bottom: 1px solid #445765ff; 
 }
 tr:hover{
-  background-color: #efefefff
+  background-color: rgb(248, 177, 171)
 }

@@ -4,11 +4,13 @@
 body{
   background-color: #efefefff;
 }
-#container{
+header{
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(150, 150, 150);
 }
-header {
+/*header {
   background-color: #5c407aff;
   background-color: #f97167ff;
   background-color: #f36b81ff;
@@ -26,11 +28,17 @@ header {
   background-color: #27c5aeff;
   background-color: #199b83ff;
   background-color: #dfdfdfff;
-}
+}*/
 header img{
- width: 104%;
- margin-top: -4%;
- margin-bottom: -5%;
+  width: 85%;
+  margin-top: -5%;
+  margin-bottom: -5%;
+  margin-left: 4%;
+  
+}
+main{
+  margin: 0 auto;
+  width: 80%;
 }
 #fundo{
   width: 80%; 
