@@ -1,6 +1,21 @@
 *{
   margin: 0;
 }
+h1{
+  font-size: 8rem;
+}
+h2{
+  font-size: 5rem;
+}
+h3{
+  font-size: 3rem;
+}
+h4{
+  font-size: 2rem;
+}
+p,ul,li,a{
+  font-size: 1.8rem;
+}
 body{
   background-color: #efefefff;
 }
@@ -37,15 +52,6 @@ header {
   background-color: rgb(180, 180, 180);
   text-align: center;
 }
-/*
-#superior{
-  background-color: #26ddbfff;
-  text-align: center;
-}
-#inferior{
-  background-color: #a5f6e9ff;
-  text-align: center;
-}*/
 #saibaMais{
  width: 85%;
  margin-top: -5%;
@@ -95,4 +101,10 @@ th{
 }
 tr:hover{
   background-color: rgb(248, 177, 171)
+}
+footer{
+  padding: 2%;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(150, 150, 150);
 }

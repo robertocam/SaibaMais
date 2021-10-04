@@ -1,5 +1,21 @@
 *{
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-size: 8rem;
+}
+h2{
+  font-size: 5rem;
+}
+h3{
+  font-size: 3rem;
+}
+h4{
+  font-size: 2rem;
+}
+p,ul,li,a{
+  font-size: 1.8rem;
 }
 body{
   background-color: #efefefff;
@@ -47,11 +63,17 @@ header {
  margin-top: 2%;
 }
 main img{
-  width: 50%;
+  width: 100%;
   border: 5px #445765ff solid;
 }
 .map{
-  width: 100%;
+  width: 30%;
   height: 300px;
   border: 0;
+}
+footer{
+  padding: 2%;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(150, 150, 150);
 }

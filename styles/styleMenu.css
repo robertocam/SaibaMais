@@ -1,6 +1,9 @@
 *{
   margin: 0;
 }
+p{
+  font-size: 1.8rem;
+}
 body{
   background-color: #efefefff;
 }
@@ -51,4 +54,10 @@ main a img{
   height:100%;
   margin-left: 1.5%;
   border: 5px #445765ff solid;
+}
+footer{
+  padding: 2%;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(150, 150, 150);
 }
