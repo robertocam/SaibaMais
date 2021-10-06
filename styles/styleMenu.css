@@ -4,6 +4,9 @@
 p{
   font-size: 1.8rem;
 }
+h1{
+  font-size: 4rem;
+}
 body{
   background-color: #efefefff;
 }
@@ -49,11 +52,33 @@ main{
   width: 85%;
   margin-top: 2%;
 }
-main a img{
+.container{
+  display: inline-block;
   width: 47%;
   height:100%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
   margin-left: 1.5%;
   border: 5px #445765ff solid;
+  text-align: center;
+}
+a{
+  color: #0a1389ff;
+  text-decoration: none;
+}
+main a img{
+  margin-top: -270px;
+  width: 100%;
+  height:100%;
+}
+main a h1 {
+  display: inline-flex;
+  border: 3px solid #445765ff;
+  border-radius: 55%;
+  padding: 15px;
+  background-color: white;
+  margin: 80px auto;
+  position: relative;
 }
 footer{
   padding: 2%;

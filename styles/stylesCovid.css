@@ -67,6 +67,7 @@ main img{
   border: 5px #445765ff solid;
 }
 .map{
+  border-radius: 50%;
   width: 30%;
   height: 300px;
   border: 0;
