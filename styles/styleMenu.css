@@ -13,7 +13,10 @@ body{
 main{
   margin: 0 auto;
   width: 80%;
+  padding: 1%;
   background-color: #dfdfdfff;
+  display:flex;
+  justify-content: space-around
 }
 /*header {
   background-color: #5c407aff;
@@ -53,24 +56,29 @@ main{
   margin-top: 2%;
 }
 .container{
-  display: inline-block;
-  width: 47%;
-  height:100%;
-  margin-top: 1.5%;
-  margin-bottom: 1.5%;
-  margin-left: 1.5%;
+  display: flex;
+  width:48%; 
+  height: 41vw; 
   border: 5px #445765ff solid;
   text-align: center;
+  justify-content: center;
 }
 a{
-  color: #0a1389ff;
+  width:100%; 
+  height:100%;
   text-decoration: none;
 }
-main a img{
-  margin-top: -270px;
-  width: 100%;
-  height:100%;
+#covid-19{
+  background-image: url(../images/covid-19.jpg);
+  background-size: cover;
+  background-position: center;
 }
+#dengue{
+  background-image: url(../images/dengue.jpg);
+  background-size: cover;
+  background-position: center;
+}
+  
 main a h1 {
   display: inline-flex;
   border: 3px solid #445765ff;
@@ -78,11 +86,11 @@ main a h1 {
   padding: 15px;
   background-color: white;
   margin: 80px auto;
-  position: relative;
+  color: #0a1389ff;
 }
 footer{
-  padding: 2%;
-  width: 100%;
+  padding: 1%;
+  width: 98%;
   text-align: center;
   background-color: rgb(150, 150, 150);
 }

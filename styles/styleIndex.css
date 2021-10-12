@@ -2,15 +2,15 @@
   margin: 0;
 }
 p{
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 body{
   background-color: #efefefff;
 }
 header{
-  width: 100%;
   text-align: center;
   background-color: rgb(150, 150, 150);
+  width: 100%;
 }
 header img{
   width: 85%;
@@ -29,9 +29,6 @@ main{
   z-index: 1;
   margin-left: -9%;
   margin-top: -5%;
-}
-a{
-  z-index: 0;
 }
 #interrogacao{
   width: 15%;
@@ -70,8 +67,8 @@ a{
   }
 }
 footer{
-  padding: 2%;
-  width: 100%;
+  padding: 1%;
+  width: 98%;
   text-align: center;
   background-color: rgb(150, 150, 150);
 }

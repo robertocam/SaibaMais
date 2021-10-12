@@ -1,3 +1,23 @@
+/*
+header {
+  background-color: #5c407aff;
+  background-color: #f97167ff;
+  background-color: #f36b81ff;
+  background-color: #ec3235ff;
+  background-color: #ea3339ff;
+  background-color: #ea3236ff;
+  background-color: #445765ff;
+  background-color: #30dae7ff;
+  background-color: #01afedff;
+  background-color: #0a1389ff;
+  background-color: #6f90c7ff;
+  background-color: #5051dbff;
+  background-color: #a5f6e9ff;
+  background-color: #26ddbfff;
+  background-color: #27c5aeff;
+  background-color: #199b83ff;
+  background-color: #dfdfdfff;
+}*/
 *{
   margin: 0;
 }
@@ -24,26 +44,7 @@ main{
   margin: 0 auto;
   background-color: #dfdfdfff;
 }
-/*
-header {
-  background-color: #5c407aff;
-  background-color: #f97167ff;
-  background-color: #f36b81ff;
-  background-color: #ec3235ff;
-  background-color: #ea3339ff;
-  background-color: #ea3236ff;
-  background-color: #445765ff;
-  background-color: #30dae7ff;
-  background-color: #01afedff;
-  background-color: #0a1389ff;
-  background-color: #6f90c7ff;
-  background-color: #5051dbff;
-  background-color: #a5f6e9ff;
-  background-color: #26ddbfff;
-  background-color: #27c5aeff;
-  background-color: #199b83ff;
-  background-color: #dfdfdfff;
-}*/
+
 #superior{
   background-color: rgb(150, 150, 150);
   text-align: center;
@@ -65,7 +66,6 @@ header {
 main img{
   width: 50%;
   border: 5px #445765ff solid;
-  
 }
 table{
   width: 100%;
