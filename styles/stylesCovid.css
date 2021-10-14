@@ -36,6 +36,7 @@ h2{
 h3{
   font-size: 3rem;
   color: #ec3235ff;
+  padding:1% 4%
 }
 h4{
   font-size: 1.5rem;
@@ -44,8 +45,9 @@ p,ul,li,a{
   font-size: 1.5rem;
   line-height: 2em;
 }
-p{
-  text-indent: 1.5em;
+.text p, .text a{
+  text-indent: 2.5rem;
+  list-style-position: inside;
 }
 body{
   background-color: #efefefff;
@@ -73,9 +75,6 @@ main{
   margin: 0 auto;
   background-color: #dfdfdfff;
 }
-section{
-  padding: 3%;
-}
 #background{
   background-image: url(../images/covid-19.jpg);
   background-repeat: no-repeat;
@@ -87,14 +86,39 @@ section{
   width: 100%;
   opacity: 0.5;
 }
+section{
+  padding: 3%;
+}
+#statistics{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cardNumbers{
+width:32%;
+}
 main img{
   width: 100%;
   border: 5px #445765ff solid;
 }
 .map{
-  width: 30%;
+  width: 100%;
   height: 300px;
   border: 0;
+}
+#cities{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border: red 1px solid;
+  justify-content: space-between;
+}
+.city{
+  width: 31%;
+ 
+}
+.card p, .card a, .card h4{
+ font-size: 1.2rem
 }
 footer{
   padding: 1%;
