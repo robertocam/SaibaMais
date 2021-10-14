@@ -96,10 +96,16 @@ section{
 }
 .cardNumbers{
 width:32%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+background-color: #efefefff;
 }
 main img{
   width: 100%;
   border: 5px #445765ff solid;
+  box-sizing: border-box
 }
 .map{
   width: 100%;
@@ -108,14 +114,22 @@ main img{
 }
 #cities{
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  border: red 1px solid;
-  justify-content: space-between;
 }
 .city{
-  width: 31%;
- 
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card{
+  width: 30%;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #efefefff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .card p, .card a, .card h4{
  font-size: 1.2rem
