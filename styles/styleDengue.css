@@ -1,5 +1,4 @@
 /*
-header {
   background-color: #5c407aff;
   background-color: #f97167ff;
   background-color: #f36b81ff;
@@ -17,39 +16,54 @@ header {
   background-color: #27c5aeff;
   background-color: #199b83ff;
   background-color: #dfdfdfff;
-}*/
+*/
 *{
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 h1{
-  font-size: 8rem;
+  font-size: 6rem;
+  color: #ec3235ff;
+  text-align: center;
+  padding-top:3%;
+  padding-bottom:2%;
 }
 h2{
-  font-size: 5rem;
+  font-size: 4rem;
+  color: #ec3235ff;
+  padding:2% 8%;
+  margin-bottom: 1%;
 }
 h3{
   font-size: 3rem;
+  color: #ec3235ff;
+  padding:1% 4%
 }
 h4{
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
-p,ul,li,a{
-  font-size: 1.8rem;
+h1, h2{
+  background-color: #fff;
+  border-radius: 50px 5px;
+  box-shadow: 5px 5px 10px 5px rgb(150, 150, 150)
+}
+.text p,.text ul,.text li,.text a{
+  font-size: 1.5rem;
+  line-height: 2em;
+}
+.text p, .text a{
+  text-indent: 2.5rem;
+  list-style-position: inside;
 }
 body{
   background-color: #efefefff;
 }
-main{
-  width: 80%;
-  margin: 0 auto;
-  background-color: #dfdfdfff;
-}
-
-#superior{
+#top{
   background-color: rgb(150, 150, 150);
   text-align: center;
 }
-#inferior{
+#bottom{
   background-color: rgb(180, 180, 180);
   text-align: center;
 }
@@ -63,9 +77,24 @@ main{
  width: 85%;
  margin-top: 2%;
 }
-main img{
-  width: 50%;
-  border: 5px #445765ff solid;
+main{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #dfdfdfff;
+}
+#background{
+  background-image: url(../images/dengue.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  height: 10vh;
+  width: 100%;
+  opacity: 0.5;
+}
+section{
+  padding: 3%;
 }
 table{
   width: 100%;
@@ -102,9 +131,39 @@ th{
 tr:hover{
   background-color: rgb(248, 177, 171)
 }
-footer{
-  padding: 2%;
+.map{
   width: 100%;
+  height: 300px;
+  border: 0;
+}
+#cities{
+  width: 100%;
+}
+.city{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card{
+  width: 30%;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #efefefff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card p, .card a, .card h4{
+ font-size: 1.2rem
+}
+footer{
+  padding: 1%;
+  width: 96%;
   text-align: center;
   background-color: rgb(150, 150, 150);
+}
+footer p {
+  font-size: 1.8rem;
 }

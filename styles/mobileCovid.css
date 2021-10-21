@@ -1,0 +1,16 @@
+main{
+  width: 90%;
+}
+#statistics{
+  flex-direction: column;
+  width: 100%;
+}
+.cardNumbers{
+  width: 100%;
+}
+.card{
+  width: 100%;
+}
+footer p{
+  font-size: 1rem;
+}

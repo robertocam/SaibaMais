@@ -1,5 +1,4 @@
 /*
-header {
   background-color: #5c407aff;
   background-color: #f97167ff;
   background-color: #f36b81ff;
@@ -17,21 +16,24 @@ header {
   background-color: #27c5aeff;
   background-color: #199b83ff;
   background-color: #dfdfdfff;
-}*/
+*/
 *{
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 h1{
   font-size: 6rem;
   color: #ec3235ff;
   text-align: center;
-  padding-top:3%
+  padding-top:3%;
+  padding-bottom:2%;
 }
 h2{
   font-size: 4rem;
   color: #ec3235ff;
-  padding:2% 8%
+  padding:2% 8%;
+  margin-bottom: 1%;
 }
 h3{
   font-size: 3rem;
@@ -41,7 +43,12 @@ h3{
 h4{
   font-size: 1.5rem;
 }
-p,ul,li,a{
+h1, h2{
+  background-color: #fff;
+  border-radius: 50px 5px;
+  box-shadow: 5px 5px 10px 5px rgb(150, 150, 150)
+}
+.text p,.text ul,.text li,.text a{
   font-size: 1.5rem;
   line-height: 2em;
 }
@@ -92,15 +99,17 @@ section{
 #statistics{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .cardNumbers{
-width:32%;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-background-color: #efefefff;
+  margin-top: 1%;
+  width:32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #efefefff;
 }
 main img{
   width: 100%;
@@ -139,4 +148,7 @@ footer{
   width: 96%;
   text-align: center;
   background-color: rgb(150, 150, 150);
+}
+footer p {
+  font-size: 1.8rem;
 }
