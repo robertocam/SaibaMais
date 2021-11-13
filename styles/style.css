@@ -1,0 +1,288 @@
+/*
+  background-color: #5c407aff;
+  background-color: #f97167ff;
+  background-color: #f36b81ff;
+  background-color: #ec3235ff;
+  background-color: #ea3339ff;
+  background-color: #ea3236ff;
+  background-color: #445765ff;
+  background-color: #30dae7ff;
+  background-color: #01afedff;
+  background-color: #0a1389ff;
+  background-color: #6f90c7ff;
+  background-color: #5051dbff;
+  background-color: #a5f6e9ff;
+  background-color: #26ddbfff;
+  background-color: #27c5aeff;
+  background-color: #199b83ff;
+  background-color: #dfdfdfff;
+*/
+*{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+h1{
+  font-size: 6rem;
+  color: #ec3235ff;
+  text-align: center;
+  padding-top:3%;
+  padding-bottom:2%;
+}
+h2{
+  font-size: 4rem;
+  color: #ec3235ff;
+  padding:2% 8%;
+  margin-bottom: 1%;
+}
+h3{
+  font-size: 3rem;
+  color: #ec3235ff;
+  padding:1% 4%
+}
+h4{
+  font-size: 1.5rem;
+}
+h1, h2{
+  background-color: #fff;
+  border-radius: 50px 5px;
+  box-shadow: 5px 5px 10px 5px rgb(150, 150, 150)
+}
+.text p,.text ul,.text li,.text a{
+  font-size: 1.5rem;
+  line-height: 2em;
+}
+.text p, .text a{
+  text-indent: 2.5rem;
+  list-style-position: inside;
+}
+body{
+  background-color: #efefefff;
+}
+#top{
+  background-color: rgb(150, 150, 150);
+  text-align: center;
+}
+#bottom{
+  background-color: rgb(180, 180, 180);
+  text-align: center;
+}
+#saibaMais{
+ width: 85%;
+ margin-top: -5%;
+ margin-bottom: -5%;
+ margin-left: 4%;
+}
+#logo{
+ width: 85%;
+ margin-top: 2%;
+}
+main{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #dfdfdfff;
+}
+.background{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  height: 10vh;
+  width: 100%;
+  opacity: 0.5;
+}
+section{
+  padding: 3%;
+}
+.map{
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+#cities{
+  width: 100%;
+}
+.city{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card{
+  width: 30%;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #efefefff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card p, .card a, .card h4{
+ font-size: 1.2rem
+}
+footer{
+  padding: 1%;
+  width: 98%;
+  text-align: center;
+  background-color: rgb(150, 150, 150);
+}
+footer p {
+  font-size: 1.8rem;
+}
+/*Index==============================================*/
+#mainIndex{
+  background: none;
+  margin-bottom: 15%;
+}
+#fundo{
+  width: 95%; 
+  position: absolute;
+  z-index: 1;
+  margin-left: -9%;
+  margin-top: -5%;
+}
+#interrogacao{
+  width: 15%;
+  height: auto;  
+  position: relative;
+  z-index: 2;
+  margin: 15% 43%; 
+  -webkit-animation: loading 4s infinite alternate;
+  -moz-animation: loading 4s infinite alternate;
+  -o-animation: loading 4s infinite alternate;
+  -ms-animation: loading 4s infinite alternate;
+  animation: loading 4s infinite alternate;
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: translatey(0);
+    -moz-transform: translatey(0);
+    -o-transform: translatey(0);
+    -ms-transform: translatey(0);
+    transform: translatey(0);
+  }
+  
+  50% {
+    -webkit-transform: translatey(25%);
+    -moz-transform: translatey(25%);
+    -o-transform: translatey(25%);
+    -ms-transform: translatey(25%);
+    transform: translatey(25%);
+  }
+  100% {
+    -webkit-transform: translatey(0);
+    -moz-transform: translatey(0);
+    -o-transform: translatey(0);
+    -ms-transform: translatey(0);
+    transform: translatey(0);
+    }
+  }
+/*Menu==============================================*/
+.h1Menu{
+  font-size: 4rem;
+}
+#mainMenu{
+  padding: 1%;
+  display:flex;
+  justify-content: space-around
+}
+.containerMenu{
+  display: flex;
+  width:48%; 
+  height: 41vw; 
+  border: 5px #445765ff solid;
+  text-align: center;
+  justify-content: center;
+}
+.aMenu{
+  width:100%; 
+  height:100%;
+  text-decoration: none;
+}
+#covid-19{
+  background-image: url(../images/covid-19.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#dengue{
+  background-image: url(../images/dengue.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#mainMenu a h1 {
+  display: inline-flex;
+  border: 3px solid #445765ff;
+  border-radius: 55%;
+  padding: 15px;
+  background-color: white;
+  margin: 80px auto;
+  color: #0a1389ff;
+  box-shadow: none;
+}
+/*Dengue==============================================*/
+#backgroundDengue{
+  background-image: url(../images/dengue.jpg);
+}
+table{
+  width: 100%;
+}
+th, td{
+  padding: 7px;
+}
+th{
+  background-color: #f97167ff;
+  text-transform: uppercase;
+  border-top: 1px solid #445765ff;
+  border-bottom: 1px solid #111;
+  text-align: left;
+  font-size: 90%;
+  letter-spacing: 0.1em;
+}
+.periodo{
+  background-color: #ea3236ff;
+  text-transform: uppercase;
+  border-top: 1px solid #445765ff;
+  border-bottom: none;
+  text-align: center;
+  font-size: 120%;
+}
+.borderLeft{
+  border-left: 1px solid #445765ff;
+}
+.borderRight{
+  border-right: 1px solid #445765ff;
+}
+.borderBottom{
+  border-bottom: 1px solid #445765ff; 
+}
+tr:hover{
+  background-color: rgb(248, 177, 171)
+}
+/*Covid-19==================================================*/
+#backgroundCovid{
+  background-image: url(../images/covid-19.jpg);
+}
+#statistics{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.cardNumbers{
+  margin-top: 1%;
+  width:32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #efefefff;
+}
+.mainCovid img{
+  width: 100%;
+  border: 5px #445765ff solid;
+  box-sizing: border-box
+}
+
+

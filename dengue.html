@@ -5,9 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Saiba Mais!!!</title>
-  <link rel="stylesheet" href="./styles/styleDengue.css">
-  <link href="./styles/dengue1400.css" rel="stylesheet" media="screen and (max-width: 1400px)">
-  <link href="./styles/mobileDengue.css" rel="stylesheet" media="screen and (max-width: 764px)">
+  <link href="./styles/style.css" rel="stylesheet">
+  <link href="./styles/1400.css" rel="stylesheet" media="screen and (max-width: 1400px)">
+  <link href="./styles/mobile.css" rel="stylesheet" media="screen and (max-width: 764px)">
 </head>
 <body>
   <header>
@@ -18,11 +18,11 @@
       <img id="logo" src="./images/logoHeader.png" alt="Logo">
     </div>
   </header>
-  <main>
+  <main class="mainDengue">
     <section>
       <h1>Dengue</h1>
     </section>
-    <div id="background"></div>
+    <div id="backgroundDengue" class="background"></div>
     <section class="text">
       <h2>O que é?</h2>
       <p>O que é a dengue? Trata-se de uma doença infecciosa causada por um vírus transmitido pelo mosquito Aedes aegypti. Ela não tem tratamento específico, causa sintomas como febre alta e dores no corpo epode até matar. Sua incidência aumenta no verão, em dias quentes e úmidos. 
@@ -31,7 +31,7 @@
       <p>O vírus que provoca essa doença pertence ao grupo dos arbovírus, que são passados por picadas de insetos, principalmente mosquitos. Existem quatro tipos de vírus da dengue. </p>
       <p>“Portanto, é possível ser infectado até quatro vezes”, explica a infectologista Melissa Barreto Falcão, da Sociedade Brasileira de Infectologia (SBI). “Após a infecção, o corpo fica permanentemente imune contra o sorotipo que o atacou”, completa.</p>
     </section>
-    <div id="background" ></div>
+    <div id="backgroundDengue" class="background" ></div>
     <section class="text">
       <h2>Quais os sintomas?</h2>
       <p>Após a picada do mosquito Aedes aegypti os primeiros sintomas podem surgir de forma leve em alguns casos, mas também podem ser bem intensos e incômodos.</p>
@@ -52,7 +52,7 @@
       <p>Ela acontece quando a pessoa infectada sofre mudanças na coagulação do sangue, podendo levar, se não tratada, ao óbito. </p>
       <p>No princípio, os sintomas podem ser muito parecidos com a dengue clássica, porém, a partir do terceiro dia surgem hemorragias. </p>
     </section>
-    <div id="background" ></div>
+    <div id="backgroundDengue" class="background" ></div>
     <section class="text">
       <h2>Como prevenir?</h2>
       <p>A prevenção da dengue pode ser a partir da proteção do corpo contra a picada do mosquito ou pelo cuidado contra a proliferação do inseto. </p>
@@ -61,7 +61,9 @@
       <p>A começar pelo cuidado com água parada em pneus velhos, vasos de plantas e garrafas abertas.</p>
       <p>Outro aspecto importante é cuidar das poças em calhas e caixas d’águas a céu aberto, local muito propenso a ser um criadouro do mosquito. </p>
       <p>Por fim, é indicado o uso de repelente e telas nas janelas para evitar o contato com o mosquito. </p>
-
+    </section>
+    <div id="backgroundDengue" class="background" ></div>
+    <section class="text">
       <h2>Como tratar?</h2>
       <p>Após começar a sentir e identificar quais os sintomas da dengue, a pessoa deve recorrer a um médico, principalmente especialistas como clínicos gerais ou infectologistas. </p>
       <p>Assim, o profissional irá diagnosticar a partir de exames se o paciente foi infectado pelo vírus ou não.</p>
@@ -71,7 +73,7 @@
       <p>A dengue é uma doença que tem sintomas relevantes e que podem durar alguns dias. Porém, no caso da clássica, é de fácil tratamento e dificilmente leva à morte.</p>
       <p>Ainda assim, o cuidado deve ser constante ao ser diagnosticado, estando atento a sangramentos que podem mostrar que é um caso de dengue hemorrágica.</p>
     </section>
-    <div id="background" ></div>
+    <div id="backgroundDengue" class="background" ></div>
     <section class="text">
       <h2>Quais as estatísticas de casos?</h2>
       <br>
@@ -94,7 +96,7 @@
           <td class="borderRight">3</td>
         </tr>
         <tr>
-          <th colspan="4" class="periodo borderLeft borderRight">01/01/21-29/09/21</th>
+          <th colspan="4" class="periodo borderLeft borderRight">01/01/21-12/11/21</th>
         </tr>
         <tr>
           <th class="borderLeft">Notifições</th>
@@ -129,7 +131,7 @@
           <td class="borderRight">3</td>
         </tr>
         <tr>
-          <th colspan="4" class="periodo borderLeft borderRight">01/01/21-10/09/21</th>
+          <th colspan="4" class="periodo borderLeft borderRight">01/01/21-12/11/21</th>
         </tr>
         <tr>
           <th class="borderLeft">Notifições</th>
@@ -138,9 +140,9 @@
           <th class="borderRight">Casos Aguardando/ Sem resultado</th>
         </tr>
         <tr>
-          <td class="borderLeft borderBottom">1040</td>
-          <td class="borderBottom">615</td>
-          <td class="borderBottom">423</td>
+          <td class="borderLeft borderBottom">1065</td>
+          <td class="borderBottom">624</td>
+          <td class="borderBottom">441</td>
           <td class="borderRight borderBottom">0</td>
         </tr>
       </table>
@@ -149,39 +151,43 @@
       <h3>São José do Rio Preto</h3>
       <table>
         <tr>
-          <th colspan="4" class="periodo borderLeft borderRight">2020</th>
+          <th colspan="5" class="periodo borderLeft borderRight">2020</th>
         </tr>
         <tr>
           <th class="borderLeft">Notifições</th>
           <th>Casos positivos</th>
           <th>Casos negativos</th>
-          <th class="borderRight">Casos Aguardando/ Sem resultado</th>
+          <th>Casos Aguardando/ Sem resultado</th>
+          <th class="borderRight">Óbitos por dengue</th>
         </tr>
         <tr>
           <td class="borderLeft">11542</td>
           <td>7252</td>
           <td>4290</td>
-          <td class="borderRight">0</td>
+          <td>0</td>
+          <td class="borderRight">4</td>
         </tr>
         <tr>
-          <th colspan="4" class="periodo borderLeft borderRight">01/01/21-30/09/21</th>
+          <th colspan="5" class="periodo borderLeft borderRight">01/01/21-31/10/21</th>
         </tr>
         <tr>
           <th class="borderLeft">Notifições</th>
           <th>Casos positivos</th>
           <th>Casos negativos</th>
-          <th class="borderRight">Casos Aguardando/ Sem resultado</th>
+          <th>Casos Aguardando/ Sem resultado</th>
+          <th class="borderRight">Óbitos por dengue</th>
         </tr>
         <tr>
-          <td class="borderLeft borderBottom">29648</td>
-          <td class="borderBottom">19869</td>
-          <td class="borderBottom">9434</td>
-          <td class="borderRight borderBottom">345</td>
+          <td class="borderLeft borderBottom">30979</td>
+          <td class="borderBottom">20405</td>
+          <td class="borderBottom">10188</td>
+          <td class="borderBottom">386</td>
+          <td class="borderRight borderBottom">7</td>
         </tr>
       </table>
       <br>
     </section>
-    <div id="background" ></div>
+    <div id="backgroundDengue" class="background" ></div>
     <section>
       <h2>Onde procurar atendimento?</h2>
       <br>
@@ -564,7 +570,7 @@
         </div>
       </div>
     </section>
-    <div id="background" ></div>
+    <div id="backgroundDengue" class="background" ></div>
 
   </main>
   <footer>
