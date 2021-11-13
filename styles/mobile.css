@@ -1,3 +1,8 @@
+table{
+  display: block;
+  overflow-x: scroll;
+  width: 100%;
+}
 tr{
   background-color: rgb(248, 177, 171)
 }
